@@ -8,6 +8,9 @@ Instructor: Alexander Ulbrich
 Date: June 14, 2023
 
 ## Introduction
+
+![Pipeline Diagram](diagram.png)
+
 This is a simple pipeline to set up a Minecraft server on AWS EC2 using Terraform. It creates an EC2 instance with a security group, allows inbound traffic on ports 22 and 22565 (SSH and Minecraft), and installs pre-requisities for Minecraft on the instance. It then uses a remote-exec provisioner to download and run the Minecraft server jar file.
 
 ## Prerequisites
